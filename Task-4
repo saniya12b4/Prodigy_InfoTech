@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #555;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff9800;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        .home {
+            text-align: center;
+        }
+        .home img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-top: 20px;
+        }
+        .about {
+            background: #f9f9f9;
+            padding: 50px 20px;
+        }
+        .about h2 {
+            text-align: center;
+        }
+        .projects {
+            padding: 50px 20px;
+        }
+        .projects h2 {
+            text-align: center;
+        }
+        .project-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .project {
+            width: 300px;
+            background: white;
+            margin: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+ </head>
+ <body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+    </nav>
+    <section id="home" class="home">
+        <h2>Hi, I'm [Your Name]</h2>
+        <p>A Passionate Web Developer</p>
+        <img src="https://via.placeholder.com/150" alt="Your Photo">
+    </section>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a dedicated web developer with experience in creating dynamic and responsive web
+ applications. I specialize in HTML, CSS, JavaScript, and frameworks like React. My passion lies in
+ solving complex problems and delivering user-friendly designs.</p>
+        <p><strong>Education:</strong> Bachelor of Technology in Computer Science</p>
+        <p><strong>Experience:</strong> 2 years as a freelance web developer.</p>
+    </section>
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>A responsive e-commerce website built with React and Node.js.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>A portfolio website showcasing my work and skills.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>A task management app built with HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+ </body>
+ </html>
